@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homes That Shape Toronto</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.addEventListener("load", function() { 
+            window.scrollTo(0, 0); 
+            document.documentElement.scrollTop = 0;
+        });
+    </script>
+</head>
+
+<body onload="window.scrollTo(0, 0);">
+    <div class="container" id="top">
+        <div class="navbar">
+            <div class="navbar-content">
+                <div class="navbar-title">Toronto Historical Homes</div>
+                <div class="navbar-links">
+                    <a href="#top">Home</a>
+                    <a href="#carousel">Carousel</a>
+                    <a href="#maps">Maps</a>
+                    <a href="#history">History</a>
+                    <a href="#images">Images</a>
+                    <a href="#about">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h1>HOMES THAT SHAPES TORONTO</h1>
+        </div>
+
+        <div class="carousel-section" id="carousel">
+            <h2>Featured Homes</h2>
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <div class="carousel-slide active">
+                        <img src="image/casaloma.jpg" alt="Casa Loma">
+                        <div class="carousel-slide-caption">Casa Loma</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="image/colborne.jpg" alt="Colborne Lodge">
+                        <div class="carousel-slide-caption">Colborne Lodge</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="image/spadina.jpg" alt="Spadina House">
+                        <div class="carousel-slide-caption">Spadina House</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="image/gibson.jpg" alt="Gibson House">
+                        <div class="carousel-slide-caption">Gibson House</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="image/keg.jpg" alt="The Keg Mansion">
+                        <div class="carousel-slide-caption">The Keg Mansion</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="image/Campbell_House.jpg" alt="Campbell House">
+                        <div class="carousel-slide-caption">Campbell House</div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn" onclick="prevSlide()">&larr;</button>
+                <button class="carousel-btn" onclick="nextSlide()">&rarr;</button>
+            </div>
+            <div class="carousel-dots" id="dots"></div>
+        </div>
+        <hr />
+
+        
+        
+
+        
+        <div class="history-section" id="history">
+            
+            <div class="landmark">
+                <h3>Campbell House Museum - 1822</h3>
+                <p>Campbell House was built in 1822 for Chief Justice William Campbell and it is one of the oldest
+                    surviving buildings in early Toronto, which was then called York. The house is designed in the Georgian
+                    style and reflects the life of upper-class families in the early 19th century. In the 1970s, the entire
+                    building was moved from its original location to prevent demolition, allowing it to be preserved as a museum today.
+                </p>
+            </div>
+
+            
+            <div class="landmark">
+                <h3>Colborne Lodge - 1837</h3>
+                <p>Colborne Lodge is a historic home located in High Park. Built by John George Howard, the first
+                    professional architect in Toronto, it serves as a museum showcasing the early history of the city
+                    and the Howard family's contributions to Toronto's development. The house retains many original furnishings and offers views of the park's picturesque ponds.</p>
+            </div>
+
+            
+            <div class="landmark">
+                <h3>Gibson House Museum - 1851</h3>
+                <p>The Gibson House was built in 1851 for David Gibson, a Scottish immigrant, land surveyor, and political reformer. 
+                    The house represents rural life in early Toronto during the mid-19th century. Today the restored home shows how families 
+                    lived and worked in the growing community that later became North York.</p>
+            </div>
+
+            
+            <div class="landmark">
+                <h3>Spadina House - 1866</h3>
+                <p>Spadina Museum was originally built in 1866 by financier James Austin. 
+                    The house was expanded and renovated in the early 20th century, reflecting the style and lifestyle of Toronto’s
+                     wealthy families during the Edwardian era. The museum today recreates how the Austin family lived between 1900
+                      and the 1930s.</p>
+            </div>
+
+            
+            <div class="landmark">
+                <h3>The Keg Mansion - 1867</h3>
+                <p>The Keg Mansion was originally built in 1867 as Euclid Hall for Hart Massey, a wealthy industrialist from the Massey 
+                    manufacturing family. The large Victorian house later became a restaurant and is now one of the most famous historic 
+                    dining locations in Toronto. The building is also known for stories and legends about it being haunted.</p>
+            </div>
+
+            
+            <div class="landmark">
+                <h3>Casa Loma - 1911</h3>
+                <p>Casa Loma was built between 1911 and 1914 for Sir Henry Pellatt, a wealthy financier and military officer. Designed in a 
+                    Gothic Revival style, the building resembles a European castle with towers, secret passages, and large gardens. Today 
+                    Casa Loma is one of Toronto’s most famous landmarks and a major historic attraction.</p>
+            </div>
+
+            
+        </div>
+        <hr />
+
+        
+        <div class="images-section" id="images">
+            <div class="image-grid">
+                <div class="image-item">
+                    <div class="image">
+                        <img src="image/Campbell_House.jpg" alt="Historic Home 1">
+                    </div>
+                    <p>Campbell House Museum (1822)</p>   
+                </div>
+                <div class="image-item">
+                    <div class="image">
+                        <img src="image/colborne.jpg" alt="Historic Home 2">
+                    </div>
+                    <p>Colborne Lodge (1837)</p>   
+                </div>
+                <div class="image-item">
+                    <div class="image">
+                        <img src="image/gibson.jpg" alt="Historic Home 3">
+                    </div>
+                    <p>Gibson House Museum (1851)</p>   
+                </div>
+                <div class="image-item">
+                    <div class="image">
+                        <img src="image/spadina.jpg" alt="Historic Home 4">
+                    </div>
+                    <p>Spadina Museum (1866)</p>   
+                </div>
+                <div class="image-item">
+                    <div class="image">
+                        <img src="image/keg.jpg" alt="Historic Home 5">
+                    </div>
+                    <p>The Keg Mansion (1867)</p>   
+                </div>
+                <div class="image-item">
+                    <div class="image">
+                        <img src="image/casaloma.jpg" alt="Historic Home 6">
+                    </div>
+                    <p>Casa Loma (1911)</p>   
+                </div>
+            </div>
+        </div>
+
+        
+        <hr />
+
+        <div class="map-section" id="maps">
+            <h2>LANDMARKS OF TORONTO'S PAST</h2>
+            <div class="header-image">
+                <div class="image-bg">
+                    <img class="outline" src="image/map outline.png" alt="Toronto Map">
+                    <img class="inner" src="image/map inner.png" alt="Toronto Map">
+                </div>
+                <img class="image01" src="image/casalom map.png" alt="Toronto Map">
+                <img class="image03" src="image/gibson map.png" alt="Toronto Map">
+                <img class="image05" src="image/campbell map.png" alt="Toronto Map">
+                <img class="image06" src="image/spdina map.png" alt="Toronto Map">
+                <img class="image07" src="image/colborne map.png" alt="Toronto Map">
+                <img class="image08" src="image/keg map.png" alt="Toronto Map">
+            </div>
+            <div class="map-description">
+                <p>This map traces a quiet network of historic mansions across Toronto, each one marking a different moment in the city’s growth. From early rural homes to grand estates, these buildings reveal how Toronto expanded over time, both physically and socially. Scattered across the city, they reflect shifting landscapes, from farmland to urban neighborhoods, and tell stories of the people who shaped them. Together, they form a layered geography of memory, where history is not contained in one place, but spread across the city waiting to be discovered.</p>
+            </div>
+        </div>
+        <footer id="about" style="margin-top:0; border-top: none; background-color: #e6e6fa; color: #333;"> 
+            
+            <div style="padding: 20px; text-align: left; background-color: #e6e6fa; max-width: 1100px; margin: 0 auto;">
+                <h3 style="color: #8484be; font-size: 1.8em; margin-bottom: 15px;">About the Project</h3>
+                <p style="margin-bottom: 15px; line-height:1.6;"><strong>Homes That Shape Toronto</strong> is a project that explores a selection of historic mansions across the city, tracing their origins, architecture, and the lives once lived within them. Each house represents a different moment in Toronto’s development, revealing how spaces of living, wealth, and identity have changed over time.</p>
+                <p style="margin-bottom: 15px;">Through a combination of map, timeline, and visual storytelling, the project brings these sites together as a connected narrative. Rather than viewing them as isolated landmarks, it presents them as part of a larger story—one that reflects Toronto’s layered history and the traces it leaves behind in the built environment.</p>
+                
+                
+            </div>
+        </footer>
+        <div style="padding: 40px 20px; text-align: center; background: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.25)); border-top: 2px solid #999; font-size:0.9em; color:#fff; width: 100%; display: flex; align-items: center; justify-content: center;">
+            &copy; 2026 Homes That Shape Toronto. All rights reserved. | Privacy Policy | Credits
+        </div>
+        
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
